@@ -1,12 +1,11 @@
 {
-  "name": "financial-backend",
+  "name": "tilak-karveran",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
-  "main": "Backend/server.js",
   "scripts": {
     "start": "node Backend/server.js",
-    "dev": "nodemon Backend/server.js"
+    "dev": "nodemon Backend/server.js",
+    "vercel-build": "cd Backend && npm install"
   },
   "dependencies": {
     "cors": "^2.8.5",
