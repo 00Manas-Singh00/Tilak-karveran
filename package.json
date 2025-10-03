@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "server.js",
+  "main": "Backend/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node Backend/server.js",
+    "dev": "nodemon Backend/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
