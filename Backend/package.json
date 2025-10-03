@@ -1,0 +1,19 @@
+{
+  "name": "tilak-karveran-backend",
+  "version": "1.0.0",
+  "description": "Backend for Tilak Karveran project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
